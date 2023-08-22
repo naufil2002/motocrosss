@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-family: Avenir LT Std;
+    color: var(--main-color);
+}
+
+h4 h3 {
+    font-family: muli;
+    color: var(--main-color);
+}
+
+h3{
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+p,
+a,
+li,
+button {
+    font-family: "muli";
+    color: var(--primary-color);
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+button {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+
+/* -------------------------------------- OUR MAIN STYLE START HERE --------------------------- */
+
+
+.main_column{
+    margin: auto;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(160deg, #d2d2d2 0%, #ffffff 100%);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+
+.column1{
+    /* border: 2px solid red; */
+    height: 116rem;
+    width: 50rem;
+}
+
+.columncenter{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-color: rgb(213, 17, 17);
+    height: 90rem;
+    width: 15rem;
+}
+
+.columncenter h1{
+    font-size: 35px;
+    margin-top: 2rem;
+    margin-left: 106rem;
+    color: white;
+}
+
+
+
+.lists{
+    display: flex;
+    color: black;
+    margin-top: 3rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.list:hover{
+    color: #737373;
+    /* color: #b3b3b3; */
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------------------ 1st MAIN SECTION START HERE----------------------------------------------------------- */
+
+
+.img1{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.checkout{
+    margin-left: 1rem;
+}
+
+.intro{
+    margin-top: 3rem;
+    color: rgb(213, 17, 17);
+}
+
+.o7{
+    font-size: 4rem;
+}
+
+.deco{
+    margin-top: -1.5rem;
+}
+
+.km{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(213, 17, 17);
+    width: 12rem;
+    height: 3.5rem;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.km:hover{
+    background-color: #3a3a3a;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.welcome{
+    margin-top: 8rem;
+    font-size: 2rem;
+}
+
+.welcome p{
+    font-size: 2.7rem;
+}
+
+.hr{
+    width: 26rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lastparagraph{
+    font-size: 1.5rem;
+    margin-right: 15rem;
+}
+
+.helmet{
+    position: absolute;
+    top: 20rem;
+    filter: drop-shadow(0 -2mm 1mm rgb(46, 46, 46));
+}
+
+.bike{
+    position: relative;
+    z-index: 1;
+    top: 70rem;
+    right: 32rem;
+    filter: drop-shadow(0 -2mm 1mm rgb(46, 46, 46));
+}
+
+.road{
+    position: relative;
+    top: 99rem;
+    right: 85rem;
+    filter: drop-shadow(0 -2mm 1mm rgb(46, 46, 46));
+}
+
+.stoneimg{
+    width: 25%;
+    position: relative;
+    margin-top: 18rem;
+    mix-blend-mode: color-burn;
+}
+
+.stone2{
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    margin-top: 17rem;
+    transform: rotate(3deg);
+    margin-left: 2rem;
+}
+
+.stone5{
+    position: relative;
+    z-index: 1;
+    margin-top: -15rem;
+    margin-left: 10rem;
+    width: 18%;
+}
+
+
+.rightstone{
+    position: relative;
+    top: 51rem;
+    margin-left: 14rem;
+    width: 53%;
+}
+
+.stonelast{
+    position: relative;
+    top: 64rem;
+    margin-left: 37.5rem;
+    width: 25%;
+}
+
+.rightimg{
+    position: relative;
+    top: -8rem;
+    margin-left: 22rem;
+    width: 20%;
+    /* box-shadow: 0 10px lightgray; */
+    filter: drop-shadow(0 2mm 0mm rgb(23, 23, 23));
+}
+
+#logolessthan{
+     margin-top: 23rem;
+     margin-left: 15rem;
+     font-size: 4rem;
+}
+
+#logolessthan i:hover{
+    color: #737373;
+    cursor: pointer;
+}
+
+
+#logogreaterthan{
+    margin-top: -15rem;
+    margin-left: 37rem;
+    font-size: 4rem;
+}
+
+#logogreaterthan i:hover{
+    color: #737373;
+    cursor: pointer;
+}
+
+.metro{
+    font-size: 12px;
+    margin-top: 5rem;
+    margin-left: 21rem;
+}
+
+.share{
+    margin-top: -17.3rem;
+    text-align: end;
+    margin-left: 23.7rem;
+}
+
+.lastparagraphh{
+    font-size: 1.5rem;
+    width: 35rem;
+    margin-left: -9rem;
+}
+
+.sn{
+    margin-top: 2rem;
+    margin-left: 14rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(213, 17, 17);
+    width: 12rem;
+    height: 3.5rem;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.sn:hover{
+    background-color: #3a3a3a;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------ 2nd MAIN SECTION START HERE----------------------------------------------------------- */
+
+.second_sec_maincol{
+    padding-top: 5rem;
+    background-color: #bcbcbc;
+    background-image: linear-gradient(270deg, #bcbcbc 0%, #e7e7e7 50%, #b3b3b3 100%);
+    height: 121.5rem;
+}
+
+.second_sec_midcol{
+    /* border: 2px solid red; */
+    width: 115rem;
+    height: 75rem;
+    padding-top: 2rem;
+    margin: 5rem auto;
+}
+
+.second_sec_midcol h2{
+    color: rgb(60, 3, 3);
+    text-align: center;
+    font-size: 30px;
+}
+
+.rightarrow{
+    font-size: 60px;
+    color: rgb(60, 3, 3);
+    margin-top: 10rem;
+ } 
+
+ .rightarrow i:hover{
+    color: #737373;
+    cursor: pointer;
+ }
+
+.openface h3{
+    color: rgb(60, 3, 3);
+    font-size: 50px;
+}
+
+.openface h1{
+    color: rgb(60, 3, 3);
+    font-size: 62px ;
+}
+
+.vl {
+    border-left: 1px solid rgb(60, 3, 3);
+    height: 105px;
+    margin-left: 3rem;
+  }
+
+  .second_sec_para{
+    color:  #0c0909;
+    display: flex;
+    margin-top: -10rem;
+    margin-left: 20rem;
+    align-items: center;
+    
+  }
+
+  .second_sec_paragraph{
+    width: 40rem;
+    font-size: 1.5rem;
+    margin-right: 15rem;
+    margin-left: 3rem;
+}
+
+.leftarrow{
+    font-size: 60px;
+    color: rgb(60, 3, 3);
+}
+
+.leftarrow i:hover{
+    color: #737373;
+    cursor: pointer;
+}
+
+.leftarrow:hover{
+    color: #737373;
+    cursor: pointer;
+ }
+
+.woodimg{
+    position: relative;
+    top: -60rem;
+    text-align: center ;
+}
+
+.tablehelmet{
+    z-index: 1;
+    position: relative;
+    top: -4rem;
+    margin-left: 33rem;
+    filter: drop-shadow(-2mm -2mm 1mm    rgb(46, 46, 46));
+}
+
+.tablegloves{
+    position: relative;
+    top: -11rem;
+    margin-left: 1rem;
+    transform: rotate(-50deg);
+    filter: drop-shadow(-1mm -1mm 1mm  rgb(46, 46, 46));
+    z-index: 1;
+}
+
+.tablehelmet2{
+    position: relative;
+    top: -20rem;
+    margin-left: 55rem;
+    z-index: 1;
+    transform: rotate(20deg);
+    filter: drop-shadow(-2mm -2mm 1mm    rgb(46, 46, 46));
+}
+
+.tablegoggle{
+    position: relative;
+    top: -42rem;
+    margin-left: 83rem;
+    z-index: 1;
+    filter: drop-shadow(-1mm -1mm 1mm    rgb(46, 46, 46));
+}
+
+.second-sec_second_col{
+    /* border: 2px solid red; */
+    height: 25rem;
+    width: 115rem;
+    margin: auto;
+    padding-top: 5rem;
+    display: flex;
+}
+
+.sec_1stcol{
+    /* border: 2px solid blue; */
+    width: 40%;
+    display: flex;
+}
+
+.sec_2ndcol{
+    border: 18px solid rgb(213, 17, 17);
+    width: 23%;
+    height: 155%;
+    margin-top: -2.5rem;
+}
+
+.secdivcol{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+
+/* ------------------------------------------------ 3rd LASt MAIN SECTION START HERE----------------------------------------------------------- */
+
+.last_column{
+    /* border: 2px solid red; */
+    background-color: #d2d2d2;
+    background-image: linear-gradient(160deg, #d2d2d2 0%, #ffffff 100%);
+    height: 92rem;
+    padding-top: 10rem;
+}
+
+.lastmidcol{
+    /* border: 2px solid red; */
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #3a3a3a 50%, #000000 100%);
+    width: 115rem;
+    height: 41rem;   
+    margin: auto;
+    display: flex;
+}
+
+.helmetsname{
+    color: #737373;
+}
+
+.footerhelmet{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.lasthelmets{
+    position: relative;
+    top: 10rem;
+    text-align: center;
+}
+
+.lasthelmets1{
+    position: relative;
+    top: 15rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.lasthelmets2{
+    position: relative;
+    top: 15rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.lastarrow{
+    font-size: 60px;
+    color: rgb(60, 3, 3);
+    margin-top: 18rem;
+}
+
+.lastarrow i:hover{
+    color: #737373;
+    cursor: pointer;
+}
+
+.svg{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.motocross{
+    color: #737373;
+    font-size: 30px;
+}
+
+.lastreadmore{
+    font-size: 1.5rem;
+    border: 2px solid rgb(213, 17, 17);
+    width: 12rem;
+    height: 3.5rem;
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 2rem;
+    margin:2rem auto;
+}
+
+
+/* .lastreadmore:hover{
+    background-color: #3a3a3a;         
+    color: #b3b3b3;
+    cursor: pointer;
+} */
+
+/* ------------------------------------------------ FOOTER SECTION START HERE----------------------------------------------------------- */
+
+.lastfooter{
+    /* border: 2px solid red; */
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #3a3a3a 50%, #000000 100%);
+
+    height: 30rem;
+    width: auto;
+    margin: 10rem auto;
+}
+
+.ekdumlast{
+    /* border: 2px solid red; */
+    height: 30rem;
+    width: 115rem;
+    margin: auto;
+}
+
+.srffooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 30rem;
+    padding-top: 5rem;
+}
+
+.footer1 b{
+    color: rgb(213, 17, 17);
+}
+
+.footer2{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer2 h1{
+    color: #e7e7e7;
+}
+
+.footer3{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer3 h1{
+    color: #e7e7e7;
+}
+
+.footer4{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer4 h1{
+    color: #e7e7e7;
+}
+
+.footer5{
+    color: #737373;
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 30rem;
+    padding-top: 4rem;
+}
+
+.footer5 h1{
+    color: #e7e7e7;
+}
+
+.footer6{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 30rem;
+}
+
+
+
+.footer1 b{
+    font-size: 30px;
+    color: rgb(213, 17, 17)red;
+}
+
+.footer1 p{
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.icons{
+    color: #e7e7e7;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ico:hover{
+    color: #737373;
+    cursor: pointer;
+}
+
+.footerlist li{
+    font-size: 15px;
+    padding-top: 1rem;
+}
+
+.footer2 h1{
+    font-size: 17px;
+}
+
+.footer3 h1{
+    font-size: 17px;
+}
+
+.footer4 h1{
+    font-size: 17px;
+}
+
+.footer5 h1{
+    font-size: 17px;
+}
+
+.footerimg{
+    width: 100%;
+    height: 90%;
+    margin-top: 1rem;
+}
+
+.footerhr{
+    color: blue;
+    margin-top: -2rem;
+}
+
+.footerhrr{
+    margin-top: -0.5px;
+}
+
